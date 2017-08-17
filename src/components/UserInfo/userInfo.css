@@ -1,0 +1,28 @@
+@media (min-width: 600px) {
+  body{
+    width: 400px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 600px) {
+  body{
+    width: 100%;
+  }
+}
+
+p {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+img.Picture{
+  width: 200px;
+  height: 200px;
+  display: flex;
+  margin: 0 auto;
+  border-radius: 100%;
+  border: 2px solid #fff;
+}
